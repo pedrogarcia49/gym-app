@@ -1,0 +1,77 @@
+/* Utilities */
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh; 
+  
+    display: flex;
+    align-items: center;
+}
+
+
+/* */
+
+#home-ctn {
+    height: 100vh;
+}
+
+#home-ctn img {
+    width: 10%;
+}
+
+#user-create {
+    background-color: rgb(0, 146, 214)
+}
+
+#user-create-btn {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    background: linear-gradient(to right, rgb(0, 157, 230), rgb(0, 124, 182));
+}
+#user-create-btn:hover {
+    background: linear-gradient(to right, rgb(0, 144, 211), rgb(0, 114, 167));
+}
+#user-create-btn > h3 {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+
+#user-search {
+    background-color: rgb(40, 184, 52)
+}
+
+#user-search-btn {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    background: linear-gradient(to right, rgb(32, 160, 0), rgb(28, 139, 0));
+}
+#user-search-btn:hover {
+    background: linear-gradient(to right, rgb(30, 148, 0), rgb(24, 119, 0));
+}
+#user-search-btn > h3 {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+
+
+#suscripcion-ctn {
+    background-color: #5c5c5c;
+    border: solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#delete-btn {
+    position : absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    left: 85%;
+}
